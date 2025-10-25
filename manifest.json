@@ -1,14 +1,14 @@
 {
   "name": "Safer Web Tweak",
-  "version": "1.0",  
-  "manifest_version": 2,
+  "version": "1.0",
+  "manifest_version": 3,
   
-  "browser_action": {
+  "action": {
     "default_popup": "popup.html"
   },
   
   "permissions": [
-    "storage"  
+    "storage"
   ],
 
   "content_scripts": [
@@ -17,5 +17,4 @@
       "js": ["content.js"]
     }
   ]
-
 }
